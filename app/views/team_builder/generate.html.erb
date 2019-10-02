@@ -1,0 +1,30 @@
+<h1>TeamBuilder#generate</h1>
+
+<% @list.each do |player|  %>
+  <%= player.name %>
+  <%= player.war %>
+<% end %>
+<h3>Team 1</h3>
+<% @team_one.each do |player|  %>
+  <%= player.name %>
+  <%= player.war %>
+<% end %>
+<b>Team total: <%= @one_total %></b>
+<h3>Team 2</h3>
+<% @team_two.each do |player|  %>
+  <%= player.name %>
+  <%= player.war %>
+<% end %>
+<b>Team total: <%= @two_total %></b>
+<h3>Team 3</h3>
+<% @team_three.each do |player|  %>
+  <%= player.name %>
+  <%= player.war %>
+<% end %>
+<b>Team total: <%= @three_total %></b>
+<h3>Team 4</h3>
+<% @team_four.each do |player|  %>
+  <%= player.name %>
+  <%= player.war %>
+<% end %>
+<b>Team total: <%= @four_total %></b>

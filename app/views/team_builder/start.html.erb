@@ -1,0 +1,8 @@
+<h1>TeamBuilder#start</h1>
+<%= link_to "Generate a random 28 people and 4 teams from them", team_builder_generate_path, class: "btn btn-primary" %>
+
+<% @players.each do |player|  %>
+  <%= player.name %>
+  <%= player.war %>
+  <br>
+<% end %>
